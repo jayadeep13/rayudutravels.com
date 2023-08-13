@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayudu-Home</title>
+    <link rel="icon" type="image/x-icon" href="https://i.ibb.co/0KHrZ3Z/companylogo2.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="styles.css" >
+    <link rel="stylesheet" href="styles1.css">    
+    <div class="navbar">
+      <div class="menu-icon" id="menu-icon">&#9776;</div>
+      <div class="close-icon" id="close-icon"><span>&times;</span></div> 
+      <p class="mobile-heading"> 
+        <a href="tel:+919493928241">+91 9493928241 &nbsp;</a> 
+        <a href="tel:+919441411137">+91 9441411137</a>
+      </p>
+      <ul class="nav-list" id="nav-list">
+        <li> <a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact us.html">Contact </a></li>
+        <li><a href="carslist.html">Our Cars</a> </li>
+        <li><button class="booknow-btn"><a href="https://api.whatsapp.com/send/?phone=919493928241&text&type=phone_number&app_absent=0">Book Now</button></a>  </li>
+      </ul>
+    </div>
+    <script>
+      const menuIcon = document.getElementById('menu-icon');
+  const closeIcon = document.getElementById('close-icon');
+  const navList = document.getElementById('nav-list');
+  
+  menuIcon.addEventListener('click', () => {
+    navList.classList.toggle('active'); 
+  });
+  
+  closeIcon.addEventListener('click', () => {
+    navList.classList.remove('active');
+  });  
+</script>
+<div class="mainimage1">
+    <img src="https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg?cs=srgb&dl=pexels-albin-berlin-919073.jpg&fm=jpg" alt="Image" width="100%">
+    
+    <div class="text-overlays1">
+  
+        <h2>AP's Largest Car Travels with 100+ Vehicles</h2>
+    </br></br></br>
+    <h1 style=" white-space: nowrap;">Need help renting a car?  Call +91 9493928241,+91 9441411137</h1>
+    </div>
+    </div>
+    
+    <div class="imglogohead">
+      <img src="https://i.ibb.co/zSFKPCD/log.png" alt="Image" class="imagelogo">
+      <span class="rayuduheading">RAYUDU TRAVELS &nbsp;</span>
+   
+      <div class="textchangeanim">
+        <span id="travelName">RESTLESS RUN !</span>
+      </div>
+    </div>
+    <script>
+      const travelNames = ["TIREDLESS TRAVEL!", "ROAM LIKE A BOSS !", "RESTLESS RUN !","ROAM LIKE A BOSS !"];
+      let currentIndex1 = 0;
+      const travelNameElement = document.getElementById('travelName');
+  
+      function changeTravelName() {
+        currentIndex1 = (currentIndex1 + 1) % travelNames.length;
+        travelNameElement.textContent = travelNames[currentIndex];
+      }
+  
+      // Automatically change the travel name and apply fade-in animation
+      function animateTextChange() {
+        changeTravelName();
+        const textElement = document.querySelector('.textchangename');
+        textElement.style.animation = 'none';
+        void textElement.offsetWidth; // Trigger reflow
+        textElement.style.animation = null;
+      }
+  
+      setInterval(animateTextChange, 3000);
+    </script>
+    </br>
+    <p class="abouthead">About Us</p>
+  </br></br></br>
+    <div class="mainabout" style="background-color: #ecf5f5ab;">
+      <img src="https://i.ibb.co/zHwCKjF/modern-png.png" alt="Image">
+      <div class="mainabout-text">
+      
+        "Welcome to RAYUDU TRAVELS, your go-to source for affordable and reliable car rentals.
+            Founded in 2018, our company has been providing top-notch car rental services to customers all over the INDIA.
+            We pride ourselves on offering a wide range of vehicles to choose from, including luxury cars and economy cars.
+            RAYUDU TRAVELS has also given the best services to govt by supplying a large scale of vehicles
+            to government on a long-term contract basis since 2018.
+            At RAYUDU TRAVELS, we believe in providing our customers with exceptional customer service.
+            Our friendly and knowledgeable staff is always available to answer any questions
+            you may have and to help you find the perfect vehicle for your needs.
+            We understand that renting a car can be stressful,
+            which is why we strive to make the process as easy and stress-free as possible.
+            In addition to our commitment to customer service, we are also dedicated to providing our customers
+            with the best possible value. We offer competitive pricing on all of our rentals. Plus, we offer
+            flexible rental policies to ensure that our customers can get the vehicle they need,when they need it.
+          </br>
+        </br>
+        </br>
+            Thank you for considering RAYUDU TRAVELS for your next rental. We look forward to serving you!" 
+        </br>
+        </br>
+      </div>
+    </div>
+  </br>
+</br>
+<h3 class="getthebestoffers1">Get the Best Offers</h3>
+<h4 class="ourfeaturedcars1">Our Featured Cars</h4>
+<div class="hor1img123">
+    <img src="https://imgd.aeplcdn.com/642x336/n/93c7oua_1555653.jpg?q=75" alt="Car 1">
+    <img src="https://imgd.aeplcdn.com/370x208/n/z8fll3a_1579027.jpg?q=75" alt="Car 2">
+    <img src="https://imgd.aeplcdn.com/642x336/n/93c7oua_1555653.jpg?q=75" alt="Car 3">
+</div>
+</br>
+<div class="cousnt123654">
+    <a href="carslist.html">
+        <button class="buncars1304">View all cars</button>
+    </a>
+</div>
+</br>
+</br>
+<div class="experienceservice">
+  
+  <div class="image-experience123">
+    <img src="https://i.ibb.co/4SVhtVb/opt.png">
+  </div>
+  <div class="contentexperiences123">
+    <h2 class="protocols">Feel The Best Experience With Our Services</h2>
+    <div class="subtitle">Our services are categorized under 3 segments:</div>
+    <div class="elementor-icon elementor-animation-">
+      <i aria-hidden="true" class="icon icon-cog"></i>
+    </div>
+    <div class="segment">
+      <img src="https://i.ibb.co/mcJFTtZ/protocols.png">
+      <h1>Govt Protocol:</h1>
+    </div>
+    <p>
+      We have been providing vehicles to the government through protocol and also to the Head Of Departments and commissioners of the respective govt departments.
+    </p>
+    <div class="segment">
+      <img src="https://i.ibb.co/Kyp9nTV/luxurysegment.png">
+      <h1>Luxury segment</h1>
+    </div>
+    <p>
+      We offer luxury cars namely Audi Q7, BMW 7series, and Mercedes C 220, etc. For Govt officials, Celebrities, foreign delegates, and also for events like marriages, etc.
+    </p>
+    <div class="segment">
+      <img src="https://i.ibb.co/wQRqdfs/outstation.png">
+      <h1>Local and Outstation services.</h1>
+    </div>
+    <p>
+      We also provide vehicles on KM basis and also Day basis like in tour packages, long trips, or wedding packages, etc.
+    </p>
+  </div>
+</div>
+</br></br></br>
+
+
+<h2 class="main-comfort">Your comfort and convenience are our first priority</h2>
+<p class="subcomfort">You can trust us to do our job in delivering cars on time and up to your expectations, 100% of the time, all the time.</p>
+</br></br></br>
+<div class="service-container">
+  <div class="service-box">
+    <div class="icon-container">
+      <img src="https://png.pngtree.com/png-clipart/20190705/original/pngtree-vector-car-icon-png-image_4277476.jpg" style="width: 15%; height: 18%;">
+      <h3 style="text-align: center;">&nbsp;SAFETY &amp; COMFORT</h3>
+    </div>
+  </br>
+    <p class="service-paragraph">Your safety and comfort are our first priority. A complete GPS tracking of the vehicle is also maintained. Every vehicle is well maintained regularly and proper maintenance tests take place before the commencement of any trip. All vehicles are maintained with perfect and updated vehicle records</p>
+  </div>
+  <div class="service-box" style="background-color: #268040;"></br>
+    <div class="icon-container"></br>
+      <img src="https://www.seekpng.com/png/detail/99-995922_steering-wheel-car-navigation-driving-comments-car-steering.png" style="width: 32px;">
+      <h3 style="text-align: center;">&nbsp;PROFESSIONAL</h3>
+    </div>
+  </br>
+    <p class="service-paragraph">All our chauffeurs and employees are well trained and professionals. Our chauffeurs are recruited only after passing multiple tests like driving, behavior, maintenance etc. They arrive at duty in well-groomed uniforms.</p>
+  </div>
+  <div class="service-box">
+  </br><div class="icon-container">
+      <img src="https://img.freepik.com/premium-vector/car-service-logo-design-template-with-24h-gear-screwdriver-wrench-repair-maintenance-assistance-spare-parts-services-isolated-vector-illustration_108855-2719.jpg" style="width: 37px;">
+      <h3 style="text-align: center;">&nbsp;24/7 SERVICE</h3>
+    </div></br>
+    <p class="service-paragraph">We’re always at your fingertips and a call away to help you with our services. You can call us anytime and get your journey started or even get your queries clarified from our well-supportive team.</p>
+  </div>
+</div>
+</br></br></br>
+<div class="container987">
+
+<div class="content53">
+  <div class="arrow left">&lt;</div>
+  <div class="heading53">Our Customers Love Us!</div>
+  <div class="mini-box">
+    <br /><br /><br />
+    <p>"Experience was great traveling with this cabs service rental. The rates were affordable, driver was good, and the overall experience was also awesome. I have used this car rental service more than twice and have found it always convenient..</p>
+    <h2 style="font-size: 24px; font-family: 'Brush Script MT', cursive; color:	#8686d1;margin-top: 28px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Balu mahendar</h2>
+  </div>
+  <div class="mini-box">
+    <br /><br /><br /><br />
+    <p>"Excellent service provided by reliable car rentals. Disciplined pickup and drop and good quality of car provided</p>
+    <h2 style="font-size: 24px; font-family: 'Brush Script MT', cursive; color:	#8686d1;margin-top: 28px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vidhya</h2>
+  </div>
+  <div class="mini-box">
+    <br /><br /><br /><br />
+    <p>"Best service with good price, nice driver, nice vehicle overall very good. I will recommend it to all of you</p>
+    <h2 style="font-size: 24px; font-family: 'Brush Script MT', cursive; color:	#8686d1;margin-top: 28px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Amrita Singh</h2>
+  </div>
+  <div class="mini-box">
+    <br /><br />
+    <p>"5 out of 5. I have tried many car rental services in Vijayawada and found that Rayudu Travels is the best and professional among all. They have very professional drivers who are very caring, loyal</p>
+    <h2 style="font-size: 24px; font-family: 'Brush Script MT', cursive; color:	#8686d1;margin-top: 28px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jayadeep Kumar</h2>
+  </div>
+  <div class="mini-box">
+    <br /><br /><br />
+    <p>"Very good service, totally satisfied. The driver was very genial and loved his work. I had an occasion to engage your services on April from Vijayawada to Secunderabad</p>
+    <h2 style="font-size: 24px; font-family: 'Brush Script MT', cursive; color:	#8686d1;margin-top: 28px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eswar</h2>
+  </div>
+  <div class="mini-box">
+    <br /><br /><br />
+    <p>"Excellent service provided by reliable car rentals. Disciplined pickup and drop and good quality of car provided</p>
+    <h2 style="font-size: 24px; font-family: 'Brush Script MT', cursive; color:	#8686d1;margin-top: 28px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Roshini</h2>
+  </div>
+  <div class="arrow right">&gt;</div>
+</div>
+<img class="mapimage" style="width: 55%;height: 650px;"src="https://i.ibb.co/PmxGGHH/loc.gif">
+
+
+</div>
+</div>
+
+<script>
+
+  var miniBoxes = document.querySelectorAll('.mini-box');
+  var currentIndex = 0;
+
+  function showMiniBox(index) {
+    for (var i = 0; i < miniBoxes.length; i++) {
+      miniBoxes[i].style.display = 'none';
+    }
+    miniBoxes[index].style.display = 'block';
+  }
+
+  function showNextMiniBox() {
+    currentIndex = (currentIndex + 1) % miniBoxes.length;
+    showMiniBox(currentIndex);
+  }
+
+  function showPreviousMiniBox() {
+    currentIndex = (currentIndex - 1 + miniBoxes.length) % miniBoxes.length;
+    showMiniBox(currentIndex);
+  }
+
+  // Add click event listeners to arrows
+  document.querySelector('.arrow.left').addEventListener('click', showPreviousMiniBox);
+  document.querySelector('.arrow.right').addEventListener('click', showNextMiniBox);
+
+  // Show the first mini box initially
+  showMiniBox(currentIndex);
+
+  // Automatically show the next mini box every 3 seconds
+  setInterval(showNextMiniBox, 5000);
+</script>
+</br></br>
+<link
+rel="stylesheet"
+href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+crossorigin="anonymous"
+/>
+<footer>
+<div class="container">
+<div class="sec aboutus">
+  <h2 >Location</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3824.5145084559196!2d80.6555279!3d16.5242623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35e5d4bcadc62b%3A0x8c75f96deca4f710!2sRayudu%20Travels!5e0!3m2!1sen!2sin!4v1652210129778!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+
+  <ul class="sci">
+    <li>
+      <a href="https://www.facebook.com/VBRayudu?mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+    </li>
+    
+    <li>
+      <a href="https://www.instagram.com/rayudu_travels/?igshid=ZDdkNTZiNTM%3D"><i class="fab fa-instagram"></i></a>
+    </li>
+    <li>
+      <a href="https://youtube.com/@RAYUDUTRAVELS"><i class="fab fa-youtube"></i></a>
+    </li>
+    <li>
+      <a href="RAYUDUTRAVELS8@GMAIL.COM">
+        <img src="images (2)/maillog.png"style="width: 12px;heigth:15px"; alt="Gmail Logo">
+      </a>
+    </li>
+  </ul>
+</div>
+<div class="sec quicklink">
+ 
+<div class="sec contact">
+   
+  <h2>Contact Us</h2>
+  <ul class="info">  
+    <li> 
+      <span><i class="fad fa-map-marker-alt"></i></span>
+      <p>
+       BH Nagar</br>Near Marymatha Church</br>
+        Gunadala,vijayawada</br>
+        Andhra Pradesh-520004
+      </p>
+    </li>                    
+    <li>
+        
+      <span><i class="fad fa-phone"></i></span>
+      <p>
+        <a href="tel:+919493928241">+91 9493928241</a> <br />
+        <a href="tel:+919441411137">+91 9441411137</a>
+      </p>
+    </li>
+    <li>
+      <span><i class="fad fa-envelope"></i></span>
+      <p>
+        <a href="mailto:RAYUDUTRAVELS8@GMAIL.COM">RAYUDUTRAVELS8@GMAIL.COM</a>
+        
+      </p>
+    </li> 
+  </ul> 
+</div>
+</div>
+
+  &nbsp;
+
+  <div class="logo-container">
+    <a href="https://ibb.co/zSFKPCD"><img src="https://i.ibb.co/zSFKPCD/log.png" alt="log" class="logo123"></a>
+  </div>
+
+</footer>
+<div class="copyrightText">
+<p>Copyright &copy; 2023 JS Project. All Rights Reserved.</p>
+</div>
+</body>
+</html>
